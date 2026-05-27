@@ -1,14 +1,32 @@
-@ -0,0 +1,13 @@
-.venv/
-.pylintrc
+# Node modules
+node_modules/
+package-lock.json
+package.json
+
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
 
-.vscode
-.idea/
-.env
-django.log
-security.log
-
+# Django
+*.log
+local_settings.py
 db.sqlite3
 media/
-debug.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+EOF
