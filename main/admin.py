@@ -26,7 +26,7 @@ class CategoryAdmin(admin.ModelAdmin):
 
 
 class SizeAdmin(admin.ModelAdmin):
-    list_display = ('name')
+    list_display = ('name',)
 
 
 admin.site.register(Category, CategoryAdmin)
